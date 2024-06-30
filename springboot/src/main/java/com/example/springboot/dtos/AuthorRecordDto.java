@@ -6,5 +6,5 @@ import jakarta.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.util.UUID;
 
-public record ProductRecordDto(@NotBlank String name, @NotNull BigDecimal value, UUID id) {
+public record AuthorRecordDto(@NotBlank String name, UUID id) {
 }
